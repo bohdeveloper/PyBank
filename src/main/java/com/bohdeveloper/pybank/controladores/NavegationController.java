@@ -12,4 +12,9 @@ public class NavegationController {
         return "index";
     }
 
+    @GetMapping("/login")
+    public String goLogin(){
+        return "login";
+    }
+
 }
